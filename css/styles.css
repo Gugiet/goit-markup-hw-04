@@ -183,7 +183,7 @@ header {
       rgba(47, 48, 58, 40%) 100%,
       rgba(47, 48, 58, 40%) 100%
     ),
-    url(../images/Background.svg);
+    url(../images/Background.jpg);
   background-color: var(--second-background-color);
   text-align: center;
   padding: 200px 0;
