@@ -460,7 +460,7 @@ header {
   fill: #afb1b8;
 }
 
-.client-box:hover a {
+.client-box a:hover {
   border: solid #2196f3 1px;
   border-radius: 4px;
   width: 170px;
@@ -468,18 +468,19 @@ header {
   cursor: pointer;
 }
 
-.client-box:focus a {
+.client-box a:hover svg {
+  fill: #2196f3;
+}
+
+.client-box a:focus {
   border: solid #2196f3 1px;
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  cursor: pointer;
 }
 
-.client-box:hover svg {
-  fill: #2196f3;
-}
-
-.client-box:focus svg {
+.client-box a:focus svg {
   fill: #2196f3;
 }
 
@@ -686,3 +687,4 @@ header {
   letter-spacing: 0.3px;
   margin: 0;
 }
+
